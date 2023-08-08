@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js"></script>
+</head>
+
+<body>
+
+    <div class="div">
+        <div class="container">
+
+            <div class="div1">
+                <div id="id" class="products">
+                    <div>
+
+                        <input onclick="addToCart()" type="radio" name="color" value="red" class="radio-button" id="addToCart">
+
+                        <span> 1 Pair
+                            <span style="margin-left: 50%;font-weight: bold;">50% Off</span><br><br>
+                            <span style="padding-left: 11%;font-weight: bold;">DKK 195.00</span>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="div1">
+                <div id="id1" class="products">
+                    <div class="radio">
+                        <input onclick="addToCart1()" type="radio" name="color" value="red" class="radio-button" id="addToCart1">
+
+                        <span> 2 Pair
+                            <span style="margin-left: 42%;font-weight: bold;color: green;">Most Popular</span><br><br>
+                            <span style="padding-left: 11%;font-weight: bold;">DKK 345.00</span>
+                            <span style="margin-left: 40%;font-weight: bold;">40% Off</span>
+                        </span><br><br>
+
+
+                        <label>#1</label>
+                        <select style="padding-left: 20px;background-color: white;" name="S">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+
+
+                        <select style="padding-left: 20px;background-color: white;" name="color">
+                            <option value="Green">Color</option>
+                            <option value="Red">Red</option>
+                            <option value="Yellow">Yellow</option>
+                            <option value="Blue">Blue</option>
+                        </select><br><br>
+
+                        <label>#2</label>
+                        <select style="padding-left: 20px;background-color: white;" name="S">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+
+
+                        <select style="padding-left: 20px;background-color: white;" name="color">
+                            <option value="Green">Color</option>
+                            <option value="Red">Red</option>
+                            <option value="Yellow">Yellow</option>
+                            <option value="Blue">Blue</option>
+                        </select><br><br>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div id="id2" class="products">
+                    <div class="radio">
+                        <input onclick="addToCart2()" type="radio" name="color" value="red" class="radio-button" id="addToCart2">
+
+                        <span> 3 Pair
+                            <span style="margin-left: 50%;font-weight: bold;">60% Off</span><br><br>
+                            <span style="padding-left: 11%;font-weight: bold;">DKK 528.00</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p style="color: green;display: inline-block;">Free 2 Day Shipping</p>
+
+                <p style="display: inline-block;margin-left:20% ;">Total: $<span id="total-price">0</span></p>
+                <ul id="cart-items"></ul>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <button class="products1">+ Add To Cart</button>
+        </div>
+    </div>
+
+    <p class="p">© powered by pumper</p>
+
+</body>
+
+</html>
